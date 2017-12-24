@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApp2.Reg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Reg" Height="395.193" Width="290.364">
+    <Grid>
+        <Label Content="Укажите свой статус" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="5,10,0,0" Width="178"/>
+        <RadioButton Content="Работодатель" HorizontalAlignment="Left" Margin="5,37,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked"/>
+        <RadioButton Content="Работник" HorizontalAlignment="Left" Margin="5,57,0,0" VerticalAlignment="Top" Checked="RadioButton_Checked_1" RenderTransformOrigin="-1.413,0.199"/>
+    </Grid>
+</Window>
